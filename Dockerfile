@@ -1,10 +1,13 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Garante que os prints do Python apareçam em tempo real nos logs do Docker
+ENV PYTHONUNBUFFERED=1
+
+COPY requirements.txt* ./
+RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; else pip install --no-cache-dir pika requests; fi
 
 COPY . .
 
-CMD ["python", "Main.py"]
+CMD ["python", "main.py"]
