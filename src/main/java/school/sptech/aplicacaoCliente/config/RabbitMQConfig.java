@@ -1,4 +1,4 @@
-package br.com.aula.rabbitmq.config;
+package school.sptech.aplicacaoCliente.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

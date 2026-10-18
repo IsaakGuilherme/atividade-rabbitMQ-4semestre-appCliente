@@ -1,7 +1,7 @@
-package br.com.aula.rabbitmq.producer;
+package school.sptech.aplicacaoCliente.producer;
 
-import br.com.aula.rabbitmq.config.RabbitMQConfig;
-import br.com.aula.rabbitmq.dto.PedidoMessage;
+import school.sptech.aplicacaoCliente.config.RabbitMQConfig;
+import school.sptech.aplicacaoCliente.dto.PedidoMessage;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 

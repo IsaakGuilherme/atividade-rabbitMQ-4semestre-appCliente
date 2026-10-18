@@ -1,4 +1,4 @@
-package br.com.aula.rabbitmq.dto;
+package school.sptech.aplicacaoCliente.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

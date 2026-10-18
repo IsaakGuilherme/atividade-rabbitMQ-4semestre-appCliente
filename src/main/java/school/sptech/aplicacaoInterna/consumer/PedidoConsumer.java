@@ -1,7 +1,7 @@
-package br.com.aula.rabbitmq.consumer;
+package school.sptech.aplicacaoInterna.consumer;
 
-import br.com.aula.rabbitmq.config.RabbitMQConfig;
-import br.com.aula.rabbitmq.dto.PedidoMessage;
+import school.sptech.aplicacaoInterna.RabbitMQConfig;
+import school.sptech.aplicacaoCliente.dto.PedidoMessage;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 

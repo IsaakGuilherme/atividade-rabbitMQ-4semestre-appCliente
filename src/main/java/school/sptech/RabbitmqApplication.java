@@ -1,4 +1,4 @@
-package br.com.aula.rabbitmq;
+package school.sptech;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

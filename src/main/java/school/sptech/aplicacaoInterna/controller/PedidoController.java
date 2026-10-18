@@ -1,7 +1,7 @@
-package br.com.aula.rabbitmq.controller;
+package school.sptech.aplicacaoInterna.controller;
 
-import br.com.aula.rabbitmq.dto.PedidoMessage;
-import br.com.aula.rabbitmq.producer.PedidoProducer;
+import school.sptech.aplicacaoCliente.dto.PedidoMessage;
+import school.sptech.aplicacaoCliente.producer.PedidoProducer;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
